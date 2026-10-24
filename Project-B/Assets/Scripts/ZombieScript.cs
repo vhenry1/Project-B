@@ -3,8 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class ZombieScript : MonoBehaviour
 {
-	[SerializeField, Min(0f)] private float minimumSpeed = 1f;
-	[SerializeField, Min(0f)] private float maximumSpeed = 3f;
+	[SerializeField, Min(0f)] private float minimumSpeed = 0.5f;
+	[SerializeField, Min(0f)] private float maximumSpeed = 1f;
 
 	private Rigidbody2D body;
 	private float currentSpeed;
