@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 	{
-		if (scene.name == "LevelComplete")
+		if (scene.name == "LevelComplete" || scene.name == "GameComplete")
 		{
 			HidePlayer();
 			return;

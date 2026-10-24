@@ -4,6 +4,7 @@ public class MenuManager : MonoBehaviour
 {
     public void StartGame()
     {
+        ScoreManager.ResetLevelProgress();
         // Load the Level select
         UnityEngine.SceneManagement.SceneManager.LoadScene("LevelSelect");
     }
